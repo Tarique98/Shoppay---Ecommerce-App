@@ -139,7 +139,7 @@ function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={'/'} className='flex'>
                   <div className="flex ">
-                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>E-Bharat</h1>
+                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>Shoppay</h1>
                   </div>
                 </Link>
               </div>
@@ -156,7 +156,7 @@ function Navbar() {
                       Signup
                     </Link>}
 
-                  {user?.user?.email === 'knupadhyay784@gmail.com' ? 
+                  {user?.user?.email === 'testuser@gmail.com' ? 
                    <Link to={'/dashboard'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                     Admin
                   </Link> : ""}
